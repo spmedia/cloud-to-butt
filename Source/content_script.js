@@ -31,10 +31,10 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\bBaton Rouge\b/g, "BR");
+	v = v.replace(/\bBaton rouge\b/g, "Br");
+	v = v.replace(/\bbaton Rouge\b/g, "baton Rouge");
+	v = v.replace(/\bbatonrouge\b/g, "baton rouge");
 	
 	textNode.nodeValue = v;
 }
